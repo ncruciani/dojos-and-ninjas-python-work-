@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+
+                {% for ninjadojo in dojowithninjas %}
+
+            <h2>{{dojowithninjas.dojo}} Ninjas</h2>
+                
+                {% endfor %}
+
+            <table class=" table">
+
+                <thead>
+
+                    <tr>
+
+                        <div class='headerss'>
+
+                            <th>First Name</th>
+
+                            <th>Last Name</th>
+
+                            <th>Age</th>
+
+                        </div>
+                    </tr>
+                
+                        
+
+                </thead>
+
+                <tbody>
+
+                    {% for ninjaname in dojowithninjas %}
+
+                    <tr>
+
+                        <td>{{ninjaname['first_name']}}</td>
+
+                        <td>{{ninjaname['last_name']}}</td>
+
+                        <td>{{ninjaname['age']}}</td>
+
+                    </tr>
+
+                </tbody>
+
+                    {% endfor %}
+
+                
+
+            </table>
+
+    </div>
+
+</body>
+</html>

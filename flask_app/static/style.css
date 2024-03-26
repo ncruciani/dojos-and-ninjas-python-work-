@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page1{
+    height: 750px;
+    width: 1300px;
+    margin-left: 250px;
+    margin-top: 20px;
+
+}
+
+.top{
+    height: 100px;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.right_page1{
+    height: 200px;
+    width: 350px;
+    margin-left: 400px;
+    display: inline-block;
+    justify-content: space-evenly;
+
+}
+.container{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.headerss{
+    display: flex;
+}
+
+
+
+
+
